@@ -12,7 +12,7 @@ func start
 ```
 
 ## Release
-
+* [**toooy.azurewebsites.net**](https://toooy.azurewebsites.net/api/swagger/ui#/)
 
 ## License
 - Code: [MIT](./LICENSE) © [PuReum Choi](https://blue-boy.tistory.com/)

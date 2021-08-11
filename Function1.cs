@@ -14,7 +14,19 @@ namespace toy_azure_function
 {
     public static class Function1
     {
-        [FunctionName("Function1")]
+        /// <summary>
+        /// Entry Point
+        /// </summary>
+        /// <description>
+        /// [FunctionName] : HttpTrigger Default
+        /// [OpenApiPeration] : 
+        /// [OpenApiParameter] :
+        /// [OpenApiResponseWithBody] : Body±¸¼º 
+        /// </description>
+        /// <param name="req"></param>
+        /// <param name="log"></param>
+        /// <returns></returns>
+        [FunctionName("mytoyyaya")] 
         [OpenApiOperation(operationId: "Run", tags: new[] { "name" })]
         [OpenApiParameter(name: "name", In = ParameterLocation.Query, Required = true, Type = typeof(string), Description = "The **Name** parameter")]
         [OpenApiResponseWithBody(statusCode: HttpStatusCode.OK, contentType: "text/plain", bodyType: typeof(string), Description = "The OK response")]
