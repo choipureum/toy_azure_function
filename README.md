@@ -4,7 +4,7 @@
 - HttpTrigger
 - OpenApi
 ## Drone Delivery Serverless with OpenApi
-
+[!image](img/architecture1.jpg)
 
 ## Getting Started ##
 ```powershell
